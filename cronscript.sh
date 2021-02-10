@@ -13,6 +13,6 @@ chmod +x /tmp/persistencetest/attack2.sh
 sleep 5
 
 #Create cron job to execute attack script every 1 minute
-echo "*/1 * * * * /tmp/persistence/attack2.sh*" >> /var/spool/cron/crontabs/root
+echo "*/1 * * * * /tmp/persistencetest/attack2.sh*" >> /var/spool/cron/crontabs/root
 
 # crontab -u username -l to list the crontab for the user
